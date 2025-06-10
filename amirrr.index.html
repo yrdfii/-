@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>أمير السوري</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://files.catbox.moe/76pc7k.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  .btn {
+    padding: 15px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+
+  /* ألوان الأزرار حسب المنصة */
+  .youtube { background-color: #FF0000; }
+  .facebook { background-color: #3b5998; }
+  .instagram { background-color: #E1306C; }
+  .twitter { background-color: #1DA1F2; }
+  .telegram { background-color: #0088cc; }
+
+  .btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+
+<h1>أمير السوري</h1>
+<img src="https://files.catbox.moe/76pc7k.jpg" alt="صورة أمير السوري" class="profile-img" />
+
+<div class="buttons">
+  <a href="https://www.youtube.com/channel/اسم_القناة" target="_blank">
+    <div class="btn youtube">اشترك في اليوتيوب</div>
+  </a>
+  <a href="https://www.facebook.com/اسم_الصفحة" target="_blank">
+    <div class="btn facebook">تابع على فيسبوك</div>
+  </a>
+  <a href="https://instagram.com/اسم_الحساب" target="_blank">
+    <div class="btn instagram">تابع على إنستغرام</div>
+  </a>
+  <a href="https://twitter.com/اسم_الحساب" target="_blank">
+    <div class="btn twitter">تابع على تويتر</div>
+  </a>
+  <a href="https://t.me/اسم_المجموعة" target="_blank">
+    <div class="btn telegram">انضم على تليجرام</div>
+  </a>
+</div>
+
+</body>
+</html>
